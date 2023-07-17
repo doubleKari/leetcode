@@ -11,7 +11,8 @@ class Solution:
             if i % 2 == 0 and i % 3 == 0:
                 count += 1
                 sum += i
-        try: 
-            return round(sum/count)
-        except ZeroDivisionError:
+
+        if count != 0:
+            return floor(sum /count)
+        else: 
             return 0
