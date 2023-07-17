@@ -1,3 +1,4 @@
+# 07/15/2023 Author: Yaw Karikari Wiafe
 # running_sums = []
 # nums = [2,7,9,8]
 # prev_sum = 0
